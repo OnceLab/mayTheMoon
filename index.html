@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>May the Moon</title>
+    <link rel="stylesheet" href="assets/temp/styles/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,700,900' rel='stylesheet' type='text/css'>
+    <script src="assets/temp/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/temp/js/geolocation.js"></script>
+</head>
+<body>
+<div id="fullpage">
+    <div class="section">
+        <div class="moonBox">
+            <div class="moon">
+                <h2 class="moon__title">The Moon Phase Based on Your Geolocation</h2>
+                <p id = "date"></p>
+                <img id = "moon_image" >
+                <br>
+                <p id = "latlng"></p>
+                <p id = "location"></p>
+
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="section">
+        <div class="moonBox">
+            <div class="moon">
+                <h2 class="moon__title">About</h2>
+                <p class="moon__subtitle"> Author</p>
+                <img class = "moon__avatar" src="assets/images/avatar.png" >
+                <br>
+                <p class="moon__description">津雲</p>
+                <p class="moon__subtitle"> Data/Images Credit</p>
+                <p class="moon__description">NASA's Scientific Visualization Studio - Moon Phase</p>
+                <p class="moon__subtitle"> Acknowledgement</p>
+                <p class="moon__description">Google Search/</p>
+
+
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<script src="assets/temp/js/p5.min.js"></script>
+<script src="assets/temp/js/p5.dom.min.js"></script>
+<script src="assets/temp/js/star_dust.js"></script>
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.js"></script>
+<script>
+    $(document).ready(function() {
+        $('#fullpage').fullpage({
+            //Navigation
+            menu: '#menu',
+            lockAnchors: false,
+            anchors:['MoonPhase', 'About'],
+            navigation: true,
+            navigationPosition: 'right',
+            navigationTooltips: ['Moon Phase', 'Project Description'],
+            showActiveTooltip: false,
+
+
+        });
+    });
+</script>
+</body>
+</html>
