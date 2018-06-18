@@ -38,7 +38,7 @@ function successCB(position) {
     document.getElementById("date").innerHTML = Date();
 
     // 写入经纬度地点
-    document.getElementById("latlng").innerHTML = "Latitude:" +  lat.toFixed(2) + ", " + "Longitude:" + lng.toFixed(2) + ". ";
+    document.getElementById("latlng").innerHTML = "Latitude: " +  lat.toFixed(2) + ", " + "Longitude: " + lng.toFixed(2) + ". ";
 
     // 写入地点
     document.getElementById("location").innerHTML = Location;
