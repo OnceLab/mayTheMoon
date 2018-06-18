@@ -458,7 +458,7 @@ img {
         max-width: 10rem;
         max-height: 10rem;
         border-radius: 10%;
-        margin-top: 0.75rem;
+        margin-top: 0.5rem;
     }
 
 .moon__description {
@@ -471,7 +471,7 @@ img {
 .moon__subtitle {
          font-weight: 400;
          font-size: 1.75rem;
-         margin-top: 2.5rem;
+         margin-top: 3.5rem;
 
      }
 
