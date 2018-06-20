@@ -122,7 +122,7 @@ function get_moon_image_address()
     fn = fn.slice( fn.length - 4 );
 
     /* prepend this path to the filename, if needed */
-    var domain = "http://svs.gsfc.nasa.gov"
+    var domain = "https://svs.gsfc.nasa.gov"
     // 根据纬度显示正确月相图
     if (LAT = 1) {
         var path = "/vis/a000000/a004600/a004604/";
