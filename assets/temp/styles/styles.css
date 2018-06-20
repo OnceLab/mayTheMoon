@@ -431,6 +431,12 @@ img {
     height: auto;
 }
 
+.shareDiv {
+    width:0px;
+    height:0px;
+    overflow:hidden;
+}
+
 .section {
     max-height: 980px;
 }

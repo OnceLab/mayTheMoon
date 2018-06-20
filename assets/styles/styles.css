@@ -6,6 +6,8 @@
 
 @import "base/_variables.css";
 
+@import "modules/_shareDiv.css";
+
 @import "modules/_moon.css";
 
 @import "modules/_moonBox.css";
